@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bonafide Certificate Generator</title>
+</head>
+<body>
+    <h1>Bonafide Certificate Generator</h1>
+    <form method="POST" action="/" enctype="multipart/form-data">
+        <label for="name">Student's Name:</label>
+        <input type="text" name="name" required><br>
+
+        <label for="roll_number">Roll Number:</label>
+        <input type="text" name="roll_number" required><br>
+
+        <label for="year">Year (1-4):</label>
+        <input type="text" name="year" required><br>
+
+        <label for="semester">Semester (1 or 2):</label>
+        <input type="text" name="semester" required><br>
+
+        <label for="date">Date (dd/mm/yyyy):</label>
+        <input type="text" name="date" required><br>
+
+        <label for="branch">Branch:</label>
+        <input type="text" name="branch" required><br>
+
+        <label for="fathers_name">Father's Name:</label>
+        <input type="text" name="fathers_name" required><br>
+
+        <label for="academic_year">Academic Year (yyyy-yy):</label>
+        <input type="text" name="academic_year" required><br>
+
+        <button type="submit">Generate Certificate</button>
+    </form>
+</body>
+</html>
